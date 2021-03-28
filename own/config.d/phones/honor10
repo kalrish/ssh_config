@@ -1,0 +1,4 @@
+Host honor10
+	HostName 192.168.2.100
+	Port 2222
+	StrictHostKeyChecking no
