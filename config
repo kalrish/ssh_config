@@ -29,3 +29,12 @@ Host github.com
 	PreferredAuthentications publickey
 
 	User git
+
+
+Host gitlab.freedesktop.org
+
+	Port 22
+
+	PreferredAuthentications publickey
+
+	User git
