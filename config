@@ -1,2 +1,6 @@
 # man:ssh_config(5)
 # https://man.openbsd.org/ssh_config.5
+
+
+Match all
+	Compression no
