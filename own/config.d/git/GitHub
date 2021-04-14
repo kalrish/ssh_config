@@ -1,0 +1,11 @@
+# man:ssh_config(5)
+# https://man.openbsd.org/ssh_config.5
+
+
+Host github.git
+	HostName github.com
+	Port 22
+	StrictHostKeyChecking no
+	User git
+	PreferredAuthentications publickey
+	IdentitiesOnly yes
