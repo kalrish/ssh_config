@@ -1,3 +1,7 @@
+Match exec "test x${SSH_TMUX} = x1"
+	RemoteCommand if ! tmux attach ; then tmux ; fi
+	RequestTTY force
+
 Match all
 	AddKeysToAgent yes
 	Compression no
