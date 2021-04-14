@@ -1,0 +1,3 @@
+[submodule "smaato"]
+	path = smaato
+	url = ssh://bitbucket.git/~david.porcel/ssh_config.git

@@ -3,6 +3,7 @@
 
 
 Include own/config
+Include smaato/config
 
 Match exec "test x${SSH_TMUX} = x1" !originalhost *.git
 	RemoteCommand if ! tmux attach ; then tmux ; fi
