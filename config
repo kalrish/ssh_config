@@ -38,3 +38,6 @@ Host gitlab.freedesktop.org
 	PreferredAuthentications publickey
 
 	User git
+
+
+Include smaato/config

@@ -3,3 +3,8 @@
 
 # SPDX-FileCopyrightText: © 2025 David Joaquín Shourabi Porcel <https://www.djsp.eu/>
 # SPDX-License-Identifier: GPL-3.0-only
+
+
+[submodule "smaato"]
+	path = smaato
+	url = ssh://bitbucket.smaato.net/~david.porcel/ssh_config.git
