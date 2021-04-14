@@ -12,4 +12,5 @@ Match all
 	AddKeysToAgent yes
 	Compression no
 	ConnectTimeout 6
+	IdentityFile ~/.ssh/keys/id_ed25519
 	UserKnownHostsFile ~/.ssh/known_hosts.d/%h
