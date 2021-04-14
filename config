@@ -19,3 +19,13 @@ ConnectTimeout 10
 # Do not connect to hosts for which there are no keys in `known_hosts` or whose key does not match any of the keys listed in `known_hosts`.
 # This protects against man-in-the-middle (MITM) attacks.
 StrictHostKeyChecking yes
+
+
+# GitHub
+Host github.com
+
+	Port 22
+
+	PreferredAuthentications publickey
+
+	User git
