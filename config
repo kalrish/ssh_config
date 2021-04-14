@@ -6,6 +6,9 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 
+# Load private keys and their respective passphrase to the ssh-agent(1) with the default lifetime, as if done by ssh-add(1).
+AddKeysToAgent yes
+
 # According to the man page ssh(1), compression "is desirable on modem lines and other slow connections, but will only slow down things on fast networks".
 # It can still be enabled for individual hosts and also in the command line with the option `-C`.
 Compression no
