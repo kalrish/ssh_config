@@ -1,0 +1,7 @@
+Host github.git
+	HostName github.com
+	Port 22
+	StrictHostKeyChecking no
+	User git
+	PreferredAuthentications publickey
+	IdentitiesOnly yes
