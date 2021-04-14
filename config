@@ -4,3 +4,8 @@
 
 # SPDX-FileCopyrightText: © 2025 David Joaquín Shourabi Porcel <https://www.djsp.eu/>
 # SPDX-License-Identifier: GPL-3.0-only
+
+
+# According to the man page ssh(1), compression "is desirable on modem lines and other slow connections, but will only slow down things on fast networks".
+# It can still be enabled for individual hosts and also in the command line with the option `-C`.
+Compression no
