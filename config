@@ -1,3 +1,4 @@
 Match all
 	AddKeysToAgent yes
 	Compression no
+	ConnectTimeout 6
