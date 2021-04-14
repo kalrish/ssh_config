@@ -3,4 +3,5 @@
 
 
 Match all
+	AddKeysToAgent yes
 	Compression no
