@@ -16,6 +16,10 @@ Compression no
 # Give up connection atempts after 10 seconds.
 ConnectTimeout 10
 
+ControlMaster auto
+ControlPath ~/.ssh/sockets/%r@%h:%p.sock
+ControlPersist 600
+
 # authentication subkey of OpenPGP key `E0C3497126B72CA47975FC322953BB8C16043B43`
 IdentityFile ~/.ssh/keys/GnuPG-9BA80B552F9CBF05B8FCE4434A2F1EEFA069A906.pub
 
