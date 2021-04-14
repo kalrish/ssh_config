@@ -1,1 +1,4 @@
 # man:gitignore(5)
+
+
+/known_hosts
