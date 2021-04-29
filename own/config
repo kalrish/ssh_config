@@ -2,6 +2,7 @@
 # https://man.openbsd.org/ssh_config.5
 
 
+Include own/config.d/git/AUR
 Include own/config.d/git/freedesktop
 Include own/config.d/git/GitHub
 
