@@ -21,6 +21,16 @@ ConnectTimeout 10
 StrictHostKeyChecking yes
 
 
+# Arch User Repository
+Host aur.archlinux.org
+
+	Port 22
+
+	PreferredAuthentications publickey
+
+	User aur
+
+
 # GitHub
 Host github.com
 
