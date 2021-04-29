@@ -1,0 +1,7 @@
+Host aur.git
+	HostName aur.archlinux.org
+	Port 22
+	StrictHostKeyChecking no
+	User aur
+	PreferredAuthentications publickey
+	IdentitiesOnly yes

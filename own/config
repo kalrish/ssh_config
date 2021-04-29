@@ -1,3 +1,4 @@
+Include own/config.d/git/aur
 Include own/config.d/git/freedesktop
 Include own/config.d/git/github
 
