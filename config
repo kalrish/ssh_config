@@ -41,6 +41,16 @@ Host github.com
 	User git
 
 
+# GitLab SaaS
+Host gitlab.com
+
+	Port 22
+
+	PreferredAuthentications publickey
+
+	User git
+
+
 Host gitlab.freedesktop.org
 
 	Port 22
