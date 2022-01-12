@@ -1,1 +1,1 @@
-This directory contains the control sockets created by SSH when configured to share multiple sessions over a single network connection with `ControlMaster`.
+This directory contains the control sockets created by SSH when configured to share multiple sessions over a single network connection with [`ControlMaster`](https://man.archlinux.org/man/ssh_config.5#ControlMaster).
