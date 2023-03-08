@@ -12,7 +12,7 @@ Match exec "test x${SSH_TMUX} = x1" !originalhost *.git
 	RequestTTY force
 
 Match all
-	AddKeysToAgent yes
+	AddKeysToAgent no
 	Compression no
 	ConnectTimeout 6
 	IdentityFile ~/.ssh/keys/id_ed25519
