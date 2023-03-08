@@ -15,5 +15,6 @@ Match all
 	AddKeysToAgent no
 	Compression no
 	ConnectTimeout 6
+	IdentityFile ~/.ssh/keys/GnuPG-9BA80B552F9CBF05B8FCE4434A2F1EEFA069A906.pub
 	IdentityFile ~/.ssh/keys/id_ed25519
 	UserKnownHostsFile ~/.ssh/known_hosts.d/%h
