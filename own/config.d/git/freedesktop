@@ -2,7 +2,7 @@
 # https://man.openbsd.org/ssh_config
 
 
-Host freedesktop.git
+Host gitlab.freedesktop.org
 	HostName gitlab.freedesktop.org
 	Port 22
 	StrictHostKeyChecking no

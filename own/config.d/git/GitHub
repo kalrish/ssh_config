@@ -2,7 +2,7 @@
 # https://man.openbsd.org/ssh_config.5
 
 
-Host github.git
+Host github.com
 	HostName github.com
 	Port 22
 	StrictHostKeyChecking no

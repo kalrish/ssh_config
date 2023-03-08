@@ -2,7 +2,7 @@
 # https://man.openbsd.org/ssh_config
 
 
-Host aur.git
+Host aur.archlinux.org
 	HostName aur.archlinux.org
 	Port 22
 	StrictHostKeyChecking no
