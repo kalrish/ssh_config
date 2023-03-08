@@ -7,10 +7,6 @@ Include smaato/config
 
 #IdentityAgent	${XDG_RUNTIME_DIR}/gnupg/S.gpg-agent.ssh
 
-Match exec "test x${SSH_TMUX} = x1" !originalhost *.git
-	RemoteCommand if ! tmux attach ; then tmux ; fi
-	RequestTTY force
-
 Match all
 	AddKeysToAgent no
 	Compression no
