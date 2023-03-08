@@ -44,6 +44,16 @@ Host github.com
 	User git
 
 
+# Arch Linux's GitLab instance
+Host gitlab.archlinux.org
+
+	Port 222
+
+	PreferredAuthentications publickey
+
+	User git
+
+
 # GitLab SaaS
 Host gitlab.com
 
