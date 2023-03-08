@@ -4,4 +4,4 @@ SPDX-License-Identifier: GPL-3.0-only
 -->
 
 
-This directory contains public and private keys, as specified by [`IdentityFile`](https://man.archlinux.org/man/ssh_config.5#IdentityFile).
+This directory contains public and private keys, as specified by [`IdentityFile`](https://man.openbsd.org/ssh_config#IdentityFile).
