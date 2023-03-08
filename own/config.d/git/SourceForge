@@ -1,0 +1,10 @@
+# man:ssh_config(5)
+# https://man.openbsd.org/ssh_config
+
+
+Host git.code.sf.net
+	IdentitiesOnly yes
+	Port 22
+	PreferredAuthentications publickey
+	StrictHostKeyChecking no
+	User djsp
