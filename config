@@ -16,6 +16,9 @@ Compression no
 # Give up connection atempts after 10 seconds.
 ConnectTimeout 10
 
+# authentication subkey of OpenPGP key `E0C3497126B72CA47975FC322953BB8C16043B43`
+IdentityFile ~/.ssh/keys/GnuPG-9BA80B552F9CBF05B8FCE4434A2F1EEFA069A906.pub
+
 # Do not connect to hosts for which there are no keys in `known_hosts` or whose key does not match any of the keys listed in `known_hosts`.
 # This protects against man-in-the-middle (MITM) attacks.
 StrictHostKeyChecking yes

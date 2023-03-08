@@ -1,0 +1,6 @@
+# authentication subkey of OpenPGP key `E0C3497126B72CA47975FC322953BB8C16043B43`
+
+# SPDX-FileCopyrightText: © 2025 David Joaquín Shourabi Porcel <https://www.djsp.eu/>
+# SPDX-License-Identifier: GPL-3.0-only
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAII6ED2lVLoD+eR0p2qOT03LeLCJa4q98fIctNUKyMi5t openpgp:0x14686A77
