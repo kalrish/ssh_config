@@ -34,6 +34,16 @@ Host aur.archlinux.org
 	User aur
 
 
+# Bitbucket Cloud
+Host bitbucket.org
+
+	Port 22
+
+	PreferredAuthentications publickey
+
+	User git
+
+
 # SourceForge
 Host git.code.sf.net
 
