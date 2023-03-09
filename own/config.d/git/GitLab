@@ -5,7 +5,6 @@
 Host gitlab.com
 	HostName gitlab.com
 	Port 22
-	StrictHostKeyChecking no
 	User git
 	PreferredAuthentications publickey
 	IdentitiesOnly yes

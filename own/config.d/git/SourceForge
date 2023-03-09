@@ -6,5 +6,4 @@ Host git.code.sf.net
 	IdentitiesOnly yes
 	Port 22
 	PreferredAuthentications publickey
-	StrictHostKeyChecking no
 	User djsp

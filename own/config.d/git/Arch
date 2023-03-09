@@ -2,5 +2,4 @@ Host gitlab.archlinux.org
 	IdentitiesOnly yes
 	Port 222
 	PreferredAuthentications publickey
-	StrictHostKeyChecking no
 	User git
