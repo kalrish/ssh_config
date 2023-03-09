@@ -1,0 +1,6 @@
+# host public key database
+# man:sshd(8)
+# https://man.openbsd.org/sshd.8#SSH_KNOWN_HOSTS_FILE_FORMAT
+
+# SPDX-FileCopyrightText: © 2025 David Joaquín Shourabi Porcel <https://www.djsp.eu/>
+# SPDX-License-Identifier: GPL-3.0-only
