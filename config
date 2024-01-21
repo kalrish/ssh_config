@@ -93,4 +93,14 @@ Host gitlab.freedesktop.org
 	User git
 
 
+# GNOME's GitLab instance
+Host ssh.gitlab.gnome.org
+
+	Port 22
+
+	PreferredAuthentications publickey
+
+	User git
+
+
 Include smaato/config
