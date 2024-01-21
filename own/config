@@ -7,6 +7,7 @@ Include own/config.d/git/AUR
 Include own/config.d/git/freedesktop
 Include own/config.d/git/GitHub
 Include own/config.d/git/GitLab
+Include own/config.d/git/GNOME
 Include own/config.d/git/SourceForge
 
 Include own/config.d/phones/honor10

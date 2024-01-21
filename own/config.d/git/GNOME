@@ -1,0 +1,5 @@
+Host ssh.gitlab.gnome.org
+	Port 22
+	User git
+	PreferredAuthentications publickey
+	IdentitiesOnly yes
