@@ -1,0 +1,7 @@
+# man:ssh_config(5)
+
+
+Host codeberg.org
+	IdentitiesOnly yes
+	PreferredAuthentications publickey
+	User git

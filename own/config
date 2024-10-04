@@ -4,6 +4,7 @@
 
 Include own/config.d/git/Arch
 Include own/config.d/git/AUR
+Include own/config.d/git/Codeberg
 Include own/config.d/git/freedesktop
 Include own/config.d/git/GitHub
 Include own/config.d/git/GitLab
