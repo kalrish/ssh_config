@@ -44,6 +44,16 @@ Host bitbucket.org
 	User git
 
 
+# Codeberg
+Host codeberg.org
+
+	Port 22
+
+	PreferredAuthentications publickey
+
+	User git
+
+
 # SourceForge
 Host git.code.sf.net
 
