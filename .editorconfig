@@ -13,6 +13,7 @@ root = true
 # Keep in sync with `.vscode/settings.json`
 charset = utf-8
 
+# Keep in sync with `.vscode/settings.json`
 end_of_line = lf
 
 indent_style = tab

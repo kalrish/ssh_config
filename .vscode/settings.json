@@ -10,6 +10,9 @@
 	// Keep in sync with `../.editorconfig`
 	"files.encoding": "utf8",
 
+	// Keep in sync with `../.editorconfig`
+	"files.eol": "\n",
+
 }
 
 
