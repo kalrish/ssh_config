@@ -7,6 +7,9 @@
 
 {
 
+	// Keep in sync with `../.editorconfig`
+	"files.encoding": "utf8",
+
 }
 
 
