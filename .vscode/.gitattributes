@@ -1,0 +1,9 @@
+# man:gitattributes(5)
+
+# SPDX-FileCopyrightText: © 2025 David Joaquín Shourabi Porcel <https://www.djsp.eu/>
+# SPDX-License-Identifier: GPL-3.0-only
+
+
+# Visual Studio Code allows comments in its JSON configuration files
+# https://github.com/github-linguist/linguist/blob/main/docs/overrides.md
+/*.json linguist-language=JSON-with-Comments
