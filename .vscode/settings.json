@@ -13,6 +13,9 @@
 	// Keep in sync with `../.editorconfig`
 	"files.eol": "\n",
 
+	// Keep in sync with `../.editorconfig`
+	"files.insertFinalNewline": true,
+
 }
 
 
