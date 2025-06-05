@@ -10,6 +10,24 @@ This repository contains my personal [OpenSSH][] client configuration.
 
 Secret settings, such as those for employers' environments, reside in separate repositories that are kept private and included as [submodules][git submodule].
 
+## installation
+
+### POSIX
+
+On POSIX-compliant systems, check out this repository by executing the following command with a [POSIX shell][]:
+
+```Shell
+git clone -- https://codeberg.org/djsp/ssh_config.git ~/.ssh
+```
+
+### Windows
+
+On Windows, check out this repository by executing the following command with [cmd.exe][]:
+
+```Batchfile
+git clone -- https://codeberg.org/djsp/ssh_config.git "%USERPROFILE%\.ssh"
+```
+
 ## host public keys
 
 For some SSH hosts, the public keys are published:
@@ -62,9 +80,11 @@ To get the public keys of such SSH hosts:
 4. If the generated fingerprints match the known fingerprints, trust the public keys gathered with [`ssh-keyscan(1)`][man 1 ssh-keyscan].
 
 
+[cmd.exe]: https://en.wikipedia.org/wiki/Cmd.exe
 [git submodule]: https://www.git-scm.com/docs/gitglossary#def_working_tree
 [man 1 ssh-keyscan]: https://man.openbsd.org/ssh-keyscan.1
 [OpenSSH]: https://www.openssh.com/
+[POSIX shell]: https://pubs.opengroup.org/onlinepubs/9799919799/utilities/V3_chap02.html
 [SSH host public key fingerprints SourceForge]: https://sourceforge.net/p/forge/documentation/SSH%20Key%20Fingerprints/
 [SSH host public keys github.com]: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints
 [SSH host public keys gitlab.com]: https://docs.gitlab.com/ee/user/gitlab_com/#ssh-known_hosts-entries
