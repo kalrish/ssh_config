@@ -27,6 +27,9 @@ IdentityFile ~/.ssh/keys/GnuPG-9BA80B552F9CBF05B8FCE4434A2F1EEFA069A906.pub
 # This protects against man-in-the-middle (MITM) attacks.
 StrictHostKeyChecking yes
 
+# Ask whether to trust new host keys announced by servers after successful authentication.
+UpdateHostKeys ask
+
 
 # Arch User Repository
 Host aur.archlinux.org
