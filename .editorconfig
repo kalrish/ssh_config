@@ -1,0 +1,8 @@
+# configuration for text editors and IDEs
+# https://spec.editorconfig.org/
+
+# SPDX-FileCopyrightText: © 2025 David Joaquín Shourabi Porcel <https://www.djsp.eu/>
+# SPDX-License-Identifier: GPL-3.0-only
+
+
+root = true
