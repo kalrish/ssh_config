@@ -28,6 +28,24 @@ On Windows, check out this repository by executing the following command with [c
 git clone -- https://codeberg.org/djsp/ssh_config.git "%USERPROFILE%\.ssh"
 ```
 
+## updating
+
+### POSIX
+
+Update configuration by executing the following command:
+
+```Shell
+git -C ~/.ssh pull --rebase
+```
+
+### Windows
+
+Update configuration by executing the following command:
+
+```Batchfile
+git -C "%USERPROFILE%\.ssh" pull --rebase
+```
+
 ## host public keys
 
 For some SSH hosts, the public keys are published:
